@@ -40,34 +40,43 @@
 \usepackage{titlesec}
 
 %bibliography
-\usepackage[backend=biber, style=chem-acs, sorting=nty]{biblatex}
+\usepackage[backend=biber, style=numeric, sorting=nty]{biblatex}
 \addbibresource{bier.bib}
 
-\title{Lavoro di maturità di chimica con J. Muri e P. Lubini – Registro delle fonti}
-\author{Rodrigo Aldegheri, Nicolò Arcidiacono}
-\date{2026}
+\title{}
+\author{Rodrigo Aldegheri}
+\date{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%DOCUMENT%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \maketitle
 \tableofcontents
 
-\chapter{Registro prestiti, richieste o acquisti}
-    \section{SBT}
-        \begin{tabular}{llll}
-            \textsc{Libro} & \textsc{Biblioteca} & \textsc{Data di prestito} & \textsc{Inizio lettura}\\
-            \cite{Zanichelli} & lil2 & 06.02.2026 & -\\
-            \cite{Hoepli} & lil2 & 06.02.2026 & -\\
-            \cite{birraCasa} & lil2 & 06.02.2026 & -\\
-            \cite{piacereBirra} & lil2 & 06.02.2026 & -\\
-            \cite{ingredientiBirra} & lime & comandato & -\\
-            \cite{mondoFermentazioneKatz} & lilo & comandato & -\\
-        \end{tabular}
+
+Lista dei libri fin'ora richiesti
+
+\chapter{prova}
+
+
+    \section{prova 32}
+
+        \begin{enumerate}[I]
+            \item Libro di testo zanichelli: \cite{Zanichelli}
+            \item Libro di testo Hoepli:
+            \item Libro biblioteca 1:
+            \item Libro biblioteca 2:
+        \end{enumerate}
+
+
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%PROSSIMA LEZIONE%%%%%%%%%%%%%%%%%%%%%%%%
 
 
 % UNCOMMENT AFTER SETTING UP BIBLIOGRAPHY
 \printbibliography
+
 
 \end{document}
