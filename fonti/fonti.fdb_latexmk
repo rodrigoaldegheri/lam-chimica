@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber fonti"] 1770396150.2043 "fonti.bcf" "fonti.bbl" "fonti" 1770396345.57152 0
-  "bier.bib" 1770396149.67078 1148 ff2c81c2f668ee63e822001eedbf8683 ""
-  "fonti.bcf" 1770396345.21206 108540 5c13a6693aeefa8ce6c7267b5cbe509c "pdflatex"
+["biber fonti"] 1770397247.77245 "fonti.bcf" "fonti.bbl" "fonti" 1770397336.71316 0
+  "bier.bib" 1770397140.60159 1422 60509b4b1c35eefc64c9a8f826569dfe ""
+  "fonti.bcf" 1770397336.37515 108614 dd1fcf89e1182ee56d9be926bdc28c8f "pdflatex"
   (generated)
   "fonti.bbl"
   "fonti.blg"
   (rewritten before read)
-["pdflatex"] 1770396342.12489 "fonti.tex" "fonti.pdf" "fonti" 1770396345.57216 0
+["pdflatex"] 1770397333.22979 "fonti.tex" "fonti.pdf" "fonti" 1770397336.7138 0
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1136849721 2971 def0b6c1f0b107b3b936def894055589 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1136768653 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -203,12 +203,12 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1728597836.53549 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1728597697 8221428 f0171e177ace881ceff6c6c9da926532 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "fonti.aux" 1770396345.20258 1514 01467e8fd27d197f6c18c0ae42e0cd89 "pdflatex"
-  "fonti.bbl" 1770396154.37941 6776 942c2bc1c734852f6b9675c5daa89318 "biber fonti"
-  "fonti.out" 1770396345.2075 319 575fec0e19392bda19a57f4cbc0f97a8 "pdflatex"
-  "fonti.run.xml" 1770396345.21418 2411 dd6418d8710c32f6a9f35847714d148b "pdflatex"
-  "fonti.tex" 1770396341.51178 1946 630d338fff581db95e9e760a80e8dd74 ""
-  "fonti.toc" 1770396345.21443 218 2241dc77e068f353b87343e514785c82 "pdflatex"
+  "fonti.aux" 1770397336.36256 1794 e60b39b3adfa75fcce024264b70fca35 "pdflatex"
+  "fonti.bbl" 1770397252.13566 7957 76d4bf024f4ce2d8b85ddd4d5de1b8e3 "biber fonti"
+  "fonti.out" 1770397336.36896 489 2d6920cf49e593830d1e44c07896fd66 "pdflatex"
+  "fonti.run.xml" 1770397336.37711 2411 dd6418d8710c32f6a9f35847714d148b "pdflatex"
+  "fonti.tex" 1770397331.86691 2201 9ec8d0e3d9999c585241e07566de9130 ""
+  "fonti.toc" 1770397336.37734 300 891f88a959ea9a467693191bdc49a7f9 "pdflatex"
   (generated)
   "fonti.aux"
   "fonti.bcf"
