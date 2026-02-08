@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'fonti.blg'
-[103] biber-darwin:340> INFO - === Ven Feb  6, 2026, 18:00:51
-[130] Biber.pm:419> INFO - Reading 'fonti.bcf'
-[253] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
-[274] Biber.pm:4419> INFO - Processing section 0
-[291] Biber.pm:4610> INFO - Looking for bibtex file 'bier.bib' for section 0
-[293] bibtex.pm:1713> INFO - LaTeX decoding ...
-[302] bibtex.pm:1519> INFO - Found BibTeX data source 'bier.bib'
-[387] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[387] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[387] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'it-IT'
-[387] Biber.pm:4245> INFO - No sort tailoring available for locale 'it-IT'
-[396] bbl.pm:660> INFO - Writing 'fonti.bbl' with encoding 'UTF-8'
-[400] bbl.pm:763> INFO - Output to fonti.bbl
+[119] biber-darwin:340> INFO - === Dom Feb  8, 2026, 18:26:13
+[144] Biber.pm:419> INFO - Reading 'fonti.bcf'
+[275] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
+[298] Biber.pm:4419> INFO - Processing section 0
+[317] Biber.pm:4610> INFO - Looking for bibtex file 'bier.bib' for section 0
+[319] bibtex.pm:1713> INFO - LaTeX decoding ...
+[329] bibtex.pm:1519> INFO - Found BibTeX data source 'bier.bib'
+[421] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[421] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[421] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'it-IT'
+[421] Biber.pm:4245> INFO - No sort tailoring available for locale 'it-IT'
+[430] bbl.pm:660> INFO - Writing 'fonti.bbl' with encoding 'UTF-8'
+[435] bbl.pm:763> INFO - Output to fonti.bbl

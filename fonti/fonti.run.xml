@@ -57,8 +57,7 @@
       <file>numeric.bbx</file>
       <file>numeric-comp.bbx</file>
       <file>chem-acs.bbx</file>
-      <file>numeric-comp.cbx</file>
-      <file>chem-acs.cbx</file>
+      <file>authoryear.cbx</file>
       <file>biblatex.cfg</file>
       <file>italian.lbx</file>
     </requires>

@@ -3,20 +3,19 @@
 \usepackage[margin=3.25cm]{geometry}
 \usepackage{parskip}
 
-% font (garamond) UNCOMMENT TO DISPLAY GARAMOND
-%\usepackage[oldstyle]{CormorantGaramond}
-%\usepackage[cmintegrals,cmbraces]{newtxmath}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
+% bable italiano
 \usepackage[italian]{babel}
+\usepackage{csquotes}
 
 % note a pie di pagina per le note a pie di pagina se Tim non sbaglia
 \usepackage{subcaption}
 
 % per chimica
 \usepackage{chemfig}
-\usepackage{mhchem}
+\usepackage[version=4]{mhchem}
 
 % robe di chimica
 \usepackage{chemfig}
@@ -28,7 +27,8 @@
 % for numbered lists
 \usepackage{enumerate}
 
-\usepackage[hidelinks]{hyperref}
+\usepackage{hyperref}
+%\usepackage[hidelinks]{hyperref}
 
 % for figures
 \usepackage{booktabs}
@@ -40,7 +40,16 @@
 \usepackage{titlesec}
 
 %bibliography
-\usepackage[backend=biber, style=chem-acs, sorting=nty]{biblatex}
+\usepackage[
+    backend=biber,
+    style=chem-acs,
+    citestyle=authoryear,
+    uniquename=init,
+    sorting=nty,
+]{biblatex}
+
+\renewcommand*{\mkbibnamefamily}[1]{\textsc{#1}}
+
 \addbibresource{bier.bib}
 
 \title{Lavoro di maturità di chimica con J. Muri e P. Lubini – Registro delle fonti}
@@ -54,21 +63,26 @@
 
 \chapter{Registro prestiti, richieste o acquisti}
     \section{SBT}
+
+        Ecco una citazione cognome anno standard: \parencite{Zanichelli}
+
+        Invece questa dovrebbe essere a pié di pagina \footcite{Zanichelli}
+
         \begin{tabular}{llll}
             \textsc{Libro} & \textsc{Biblioteca} & \textsc{Data di prestito} & \textsc{Inizio lettura}\\
-            \cite{Zanichelli} & lil2 & 06.02.2026 & -\\
-            \cite{Hoepli} & lil2 & 06.02.2026 & R. 06.02.2026\\
-            \cite{birraCasa} & lil2 & 06.02.2026 & -\\
-            \cite{piacereBirra} & lil2 & 06.02.2026 & -\\
-            \cite{ingredientiBirra} & lime & comandato & -\\
-            \cite{mondoFermentazioneKatz} & lilo & comandato & -\\
+            \parencite{Zanichelli} & lil2 & 06.02.2026 & -\\
+            \parencite{Hoepli} & lil2 & 06.02.2026 & R. 06.02.2026\\
+            \parencite{birraCasa} & lil2 & 06.02.2026 & -\\
+            \parencite{piacereBirra} & lil2 & 06.02.2026 & -\\
+            \parencite{ingredientiBirra} & lime & comandato & -\\
+            \parencite{mondoFermentazioneKatz} & lilo & comandato & -\\
         \end{tabular}
 
     \section{Acquistati o scaricati}
 
         \begin{tabular}{llll}
             \textsc{Libro} & \textsc{Formato} & \textsc{Data ottenimento} & \textsc{Inizio lettura}\\
-            \cite{artFermentationKatz} & PDF & 06.02.2026 & -
+            \parencite{artFermentationKatz} & PDF & 06.02.2026 & -
         \end{tabular}
 
 %%%%%%%%%%%%%%%%%%%%%%%%PROSSIMA LEZIONE%%%%%%%%%%%%%%%%%%%%%%%%
