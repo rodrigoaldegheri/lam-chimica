@@ -44,10 +44,10 @@
   <internal package="biblatex" priority="9" active="0">
     <generic>latex</generic>
     <provides type="dynamic">
-      <file>fonti.bcf</file>
+      <file>main.bcf</file>
     </provides>
     <requires type="dynamic">
-      <file>fonti.bbl</file>
+      <file>main.bbl</file>
     </requires>
     <requires type="static">
       <file>blx-dm.def</file>
@@ -55,9 +55,7 @@
       <file>biblatex.def</file>
       <file>standard.bbx</file>
       <file>numeric.bbx</file>
-      <file>numeric-comp.bbx</file>
-      <file>chem-acs.bbx</file>
-      <file>authoryear.cbx</file>
+      <file>numeric.cbx</file>
       <file>biblatex.cfg</file>
       <file>italian.lbx</file>
     </requires>
@@ -66,22 +64,22 @@
     <generic>biber</generic>
     <cmdline>
       <binary>biber</binary>
-      <infile>fonti</infile>
+      <infile>main</infile>
     </cmdline>
     <input>
-      <file>fonti.bcf</file>
+      <file>main.bcf</file>
     </input>
     <output>
-      <file>fonti.bbl</file>
+      <file>main.bbl</file>
     </output>
     <provides type="dynamic">
-      <file>fonti.bbl</file>
+      <file>main.bbl</file>
     </provides>
     <requires type="dynamic">
-      <file>fonti.bcf</file>
+      <file>main.bcf</file>
     </requires>
     <requires type="editable">
-      <file>bier.bib</file>
+      <file>bibliografiaLam.bib</file>
     </requires>
   </external>
 </requests>

@@ -1,6 +1,4 @@
-# LAM di Nicolò Arcidiacono e Rodrigo Aldegheri
-
-
+# Lavoro di maturità di Aldegheri Rodrigo
 
 [File PDF col Registro delle fonti](fonti/fonti.pdf)
 

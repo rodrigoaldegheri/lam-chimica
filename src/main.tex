@@ -1,7 +1,7 @@
-\documentclass[oneside]{book} % remove 'oneside' if printing!
+\documentclass[onesided, a4paper]{book} % remove 'oneside' if printing!
 \usepackage{graphicx} % Required for inserting images
 \usepackage[margin=3.25cm]{geometry}
-\usepackage{parskip}
+%\usepackage{parskip}
 
 % font (garamond) UNCOMMENT TO DISPLAY GARAMOND
 %\usepackage[oldstyle]{CormorantGaramond}
@@ -9,25 +9,26 @@
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 
+
+\usepackage{csquotes}
 \usepackage[italian]{babel}
-
-% note a pie di pagina per le note a pie di pagina se Tim non sbaglia
-\usepackage{subcaption}
-
-% per chimica
-\usepackage{chemfig}
-\usepackage{mhchem}
+%\usepackage[english]{babel}
+%\usepackage[german]{babel}
+%\usepackage[spanish]{babel}
+%\usepackage[]{babel}
 
 % robe di chimica
 \usepackage{chemfig}
 \usepackage{tikz}
 
-% math shit
+%math shit
 \usepackage{amsmath}
 
 % for numbered lists
 \usepackage{enumerate}
 
+%for languages
+\usepackage{verse}
 \usepackage[hidelinks]{hyperref}
 
 % for figures
@@ -41,33 +42,24 @@
 
 %bibliography
 \usepackage[backend=biber, style=numeric, sorting=nty]{biblatex}
-\addbibresource{bier.bib}
+\addbibresource{bibliografiaLam.bib}
 
-\title{}
+\title{Lavoro di Maturità di Chimica}
 \author{Rodrigo Aldegheri}
-\date{}
+\date{Ciclo LAM 2026}
 
 %%%%%%%%%%%%%%%%%%%%%%%%DOCUMENT%%%%%%%%%%%%%%%%%%%%%%%%
 \begin{document}
 \maketitle
 \tableofcontents
 
+\chapter{Premesssa}
 
-Lista dei libri fin'ora richiesti
+\chapter{Parte teorica}
 
-\chapter{prova}
+\chapter{Parte sperimentale}
 
-
-    \section{prova 32}
-
-        \begin{enumerate}[I]
-            \item Libro di testo zanichelli: \cite{Zanichelli}
-            \item Libro di testo Hoepli:
-            \item Libro biblioteca 1:
-            \item Libro biblioteca 2:
-        \end{enumerate}
-
-
+\chapter{Conclusioni}
 
 
 
@@ -76,7 +68,7 @@ Lista dei libri fin'ora richiesti
 
 
 % UNCOMMENT AFTER SETTING UP BIBLIOGRAPHY
-\printbibliography
+%\printbibliography
 
 
 \end{document}
